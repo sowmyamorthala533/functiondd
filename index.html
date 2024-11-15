@@ -144,19 +144,68 @@
 // }
 // console.log(greeting(fun1,fun2,"sowmya"))
 
-function greeting(greetingfun, greetfun, name) {
-  return greetingfun(greetfun(name));
-}
+//function greeting(greetingfun, greetfun, name) {
+ // return greetingfun(greetfun(name));
+//}
 
-function fun1(greetfun, name) {
-  return greetfun  
-}
+// function fun1(greetfun, name) {
+//   return greetfun  
+// }
 
-function fun2(name) {
-  return "hello, " + name;  
-}
+// function fun2(name) {
+//   return "hello, " + name;  
+// }
 
-console.log(greeting(fun1, fun2, "sowmya"));
+// console.log(greeting(fun1, fun2, "sowmya"))
+
+//array methods
+//1.indexof
+// const arr=[1,2,3,4,5]
+// const arr1=arr.indexOf(5)
+// console.log(arr1)
+
+// const arr=[1,2,3,4,5].indexOf(2)
+// console.log(arr)
+
+//2.lastindexof
+// const arr=[1,2,3,4,5]
+// const arr1=arr.lastIndexOf(5)
+// console.log(arr)
+// console.log(arr1)
+
+//3.includes
+// const arr=[1,2,3,4,5].includes(5)
+// console.log(arr)
+
+// 4.findindexof
+// const arr=[1,2,3,4,5]
+// const arr1=arr.findIndexOf(5)
+// console.log(arr)
+// console.log(arr1)
+
+
+//foreach
+const arr=[1,2,3,4,5]
+arr.forEach((number)=>
+{
+    console.log(number*2)
+});console.log(arr)
+
+// const arr1=["sowmya","shruthi"]
+// arr1.forEach((string)=>
+// {
+//     console.log((string+" ").repeat(3).trim())
+// })
+
+//map
+// const arr=[1,2,3,4,5]
+// const arr3=arr.map((number)=>
+// {
+//     return number*2
+// });
+// console.log(arr3)
+// console.log(arr)
+
 
     </script>
 </body>
